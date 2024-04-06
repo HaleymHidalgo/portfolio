@@ -19,36 +19,63 @@
         <title>Haleym Hidalgo | Portafolio</title>
         <link rel="icon" type="image/x-icon" href="./assets/img/code-icon.svg">
         
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Allura&family=Fira+Code:wght@300..700&family=Honk&display=swap" rel="stylesheet">   
 
     </head>
     <body>
-        <div class="row">
-            <nav class="navbar navbar-expand-md bg-body-tertiary">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarToggler">
-                    <a class="navbar-brand" href="#"><img src="./assets/img/code-icon.svg" alt="code-icon" width="30"></a>
-                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
-                      <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Sobre Mi</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Proyectos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true">Testimonios</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true">Contacto</a>
-                      </li>
-                    </ul>
-                  </div>
+        <!-- Barra de Navegacion / Navbar -->
+        <nav class="navbar navbar-expand-md bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                <a class="navbar-brand" href="#"><img src="./assets/img/code-icon.svg" alt="code-icon" width="30"></a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Sobre Mi</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" aria-disabled="true">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" aria-disabled="true">Contacto</a>
+                    </li>
+                </ul>
                 </div>
-              </nav>
-        </div>
+            </div>
+            </nav>
+        <!-- Sección Principal / Section Hero -->
+        <section class="hero align-items-stretch">
+            <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+                <img class="hero-img-principal" src="./assets/img/haleym-foto.jpg" alt="Haleym - Foto">
+                <h1>Hola! Soy Haleym Hidalgo</h1>
+                <h2>Soy Estudiante de Ingenieria de Software</h2>
+            </div>
+            <div class="hero-inferior">
+                <div class="hero-inferior-img">
+                    <img src="./assets/img/html5-icon.svg" alt="html5-logo">
+                    <img src="./assets/img/css3-icon.svg" alt="css3-icon">
+                    <img src="./assets/img/bootstrap-icon.svg" alt="bootstrap-icon">
+                    <img src="./assets/img/js-icon.svg" alt="js-icon">
+                    <img src="./assets/img/java-icon.svg" alt="java-icon">
+                </div>
+            </div>
+        </section>
 
+        <!-- Sobre mi / About me -->
+        <section class="sobre-mi seccion-oscura">
+            <div class="contenedor">
+                <h2 class="seccion-titulo">Conoce a Haleym</h2>
+                <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare hendrerit eleifend. Suspendisse at ante erat. Aliquam semper ultrices libero, vitae consectetur sem dignissim vel. Morbi odio enim, porta vitae semper id, aliquet quis metus. Ut nec faucibus neque. Aenean pretium tellus vitae bibendum sodales. Donec eleifend orci in vestibulum posuere. </p>
+            </div>
+        </section>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
