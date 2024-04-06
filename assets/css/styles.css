@@ -1,0 +1,18 @@
+/* Navnar */
+.navbar{
+    padding: 1rem;
+    background-color: bisque;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: center;
+}
+
+/* Adaptable Responsive */
+
+@media screen and (max-width: 767px){
+    .navbar-brand {
+        display: none;
+    }
+}
